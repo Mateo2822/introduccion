@@ -5,5 +5,4 @@ app_name = "blog"
 
 urlpatterns = [
     path('', blogListView.as_view(), name="homeview")
-
 ]
